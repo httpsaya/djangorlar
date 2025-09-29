@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="http://127.0.0.1:8000/">Home</a><br><br>
+<form method="get">
+    <select name="city" id="" onchange="this.form.submit()">
+        {% for city in cities %}
+        <option value="{{ city }}" {% if city == selected_city %}selected{% endif %}> {{ city}} </option>
+        {% endfor %}
+    </select>
+</form>
+
+{% if current_time %}
+<h2> Current time in {{ selected_city }}: {{ current_time }}</h2>
+{% endif %}
+</body>
+</html>

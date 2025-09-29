@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="http://127.0.0.1:8000/">Home</a><br><br>
+<form method="post">
+    {% csrf_token %}
+    <button  name="action" value="click">click me</button>
+    <button name="action" value="reset">reset</button>
+</form>
+<p>{{ result }}</p>
+</body>
+</html>
