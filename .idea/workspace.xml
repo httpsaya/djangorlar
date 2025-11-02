@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cd9acff-8666-48db-ac5b-85dca6865f37" name="Changes" comment="" />
+    <list default="true" id="9cd9acff-8666-48db-ac5b-85dca6865f37" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djongarlar/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djongarlar/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djongarlar/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djongarlar/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djongarlar/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +21,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="330xY8WWoPfguMRrYpKFBTdIxCL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,8 +34,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/saya/Desktop/djangorlar"
+    "git-widget-placeholder": "practice-6-main",
+    "last_opened_file_path": "/Users/saya/Desktop/Django-Fall/djangorlar/practice-6-main"
   }
 }]]></component>
   <component name="SharedIndexes">
