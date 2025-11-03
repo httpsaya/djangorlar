@@ -4,7 +4,7 @@ import random
 import time
 
 questions = [
-    {"q": "What is the capital of France? duplicate 2", "a": "paris"},
+    {"q": "What is the capital of France? duplicate 1, 2", "a": "paris"},
     {"q": "What is 5 + 7?", "a": "12"},
     {"q": "Who wrote 'Romeo and Juliet'?", "a": "shakespeare"},
     {"q": "What planet is known as the Red Planet?", "a": "mars"},
