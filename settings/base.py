@@ -2,7 +2,8 @@
 Django settings for settings project.
 """
 from pathlib import Path
-from decouple import config 
+from decouple import config
+from django.conf.global_settings import AUTH_USER_MODEL
 
 #DIRS WSGI 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -13,7 +14,7 @@ STATIC_URL = 'static/'
 
 WSGI_APPLICATION = 'settings.wsgi.application'
 
-
+AUTH_USER_MODEL='auths.CustomUser'
 
 
 # APPLICATION 
@@ -27,7 +28,8 @@ DJANGO_AND_THIRD_PARTY_APPS = [
     'django.contrib.staticfiles',
 ]
 PROJECT_APPS = [
-
+    'apps.auths.apps.AuthsConfig',
+    'apps.abstracts.apps.AbstractsConfig',
 ]
 INSTALLED_APPS = DJANGO_AND_THIRD_PARTY_APPS + PROJECT_APPS
 
