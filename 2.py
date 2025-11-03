@@ -5,7 +5,7 @@ import time
 
 def show_intro():
     print("==============================")
-    print("   🎯 Welcome duplicte 5 to Guess It!   ")
+    print("   🎯 Welcome duplicate 1, 2, 3, 4, 5 to Guess It!   ")
     print("==============================")
     print("I'm thinking of a number between 1 and 100...")
     print("Try to guess it in as few attempts as possible!\n")
