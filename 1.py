@@ -4,7 +4,7 @@ tasks = []
 
 def show_menu():
     print("\n====== TO-DO LIST MENU ======")
-    print("1. View Tasks duplicate 3")
+    print("1. View Tasks duplicate 1, 2, 3")
     print("2. Add Task")
     print("3. Complete Task")
     print("4. Delete Task")
