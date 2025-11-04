@@ -12,6 +12,8 @@ from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin
 # Project modules
 from apps.abstracts.models import AbstractBaseModule
 from apps.auths.validators import validate_email_domain
+# Password validators
+# from django.contrib.auth.validators import
 
 class CustomUser(AbstractBaseUser, PermissionsMixin, AbstractBaseModule):
     """
