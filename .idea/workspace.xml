@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cd9acff-8666-48db-ac5b-85dca6865f37" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9cd9acff-8666-48db-ac5b-85dca6865f37" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,8 +26,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "practice-6-main",
-    "last_opened_file_path": "/Users/saya/Desktop/Django-Fall/djangorlar/practice-6-main"
+    "git-widget-placeholder": "practice-7-orm",
+    "last_opened_file_path": "/Users/saya/Desktop/Django-Fall/practice-7-orm"
   }
 }]]></component>
   <component name="SharedIndexes">
