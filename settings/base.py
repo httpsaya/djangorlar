@@ -28,8 +28,8 @@ DJANGO_AND_THIRD_PARTY_APPS = [
     'django.contrib.staticfiles',
 ]
 PROJECT_APPS = [
-    'apps.auths.apps.AuthsConfig',
     'apps.abstracts.apps.AbstractsConfig',
+    'apps.auths.apps.AuthsConfig',
 ]
 INSTALLED_APPS = DJANGO_AND_THIRD_PARTY_APPS + PROJECT_APPS
 
@@ -92,4 +92,4 @@ USE_TZ = True
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-SECRET_KEY = config('PRACTICE_SECRET_KEY')
+SECRET_KEY = config('PRACTICE_SECRET_KEY', cast=str)

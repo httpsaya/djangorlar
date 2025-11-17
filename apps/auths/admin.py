@@ -1,3 +1,18 @@
-from django.contrib import admin
+# Django modules
+from django.contrib.admin import register, ModelAdmin
+# Project modules
+from apps.auths.models import CustomUser
 
-# Register your models here.
+@register(CustomUser)
+class CustomUserAdmin(ModelAdmin):
+    """Admin model for CustomUser."""
+    list_display = (
+        'email',
+        'is_staff',
+        'is_active',
+        'full_name',
+        'is_superuser',
+    )
+    search_fields = ("email", "full_name",)
+    list_filter = ("is_active", 'is_staff', 'is_superuser',)
+    ordering = ("email",)
