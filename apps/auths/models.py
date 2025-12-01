@@ -1,6 +1,5 @@
 # Django modules
 from typing import Any
-
 from django.contrib.messages.context_processors import messages
 from django.db.models import (
     EmailField,
@@ -132,6 +131,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin, AbstractBaseModule):
         default=True,
         verbose_name="Active status",
     )
+
 
     """ Added fields """
     first_name = CharField(
